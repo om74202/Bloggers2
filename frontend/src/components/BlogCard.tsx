@@ -42,7 +42,7 @@ export const BlogCard=({authorName,title,content,publishedDate,id}:BlogCardProps
         </Link>    
 }
 
-function Circle(){
+export function Circle(){
     return <div className="w-1 h-1 rounded-sm bg-slate-500">
 
     </div>
