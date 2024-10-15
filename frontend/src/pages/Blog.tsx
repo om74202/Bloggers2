@@ -22,7 +22,7 @@ export const Blog=function(){
     }
 
     return <div>
-        <FullBlog blog={blog}/> 
+         {blog && <FullBlog blog={blog}/> }
 
     </div>
 }
